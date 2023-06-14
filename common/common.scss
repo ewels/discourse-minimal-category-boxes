@@ -58,9 +58,9 @@
   }
 }
 
-.category-list:not(.theme-setting):not(.setting):not(.category),
+.category-list:not(.theme-setting):not(.setting),
 .navigation-categories .list-container .full-width #list-area .contents,
-.categories-list .list-container .full-width #header-list-area .contents {
+.categories-list:not(.category) .list-container .full-width #header-list-area .contents {
   .column {
     margin-top: 2em;
   }

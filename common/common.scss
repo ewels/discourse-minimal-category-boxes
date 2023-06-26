@@ -174,10 +174,9 @@
     overflow: hidden;
     transition: all ease-out 0.2s;
     width: initial;
-    box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
-      0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
-      0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
-      0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
+    box-shadow: 0 0 #0000, 0 0 #0000,
+      0 1px 3px 0 rgba(0, 0, 0, .1),
+      0 1px 2px -1px rgba(0, 0, 0, .1);
     &:hover {
       background-color: var(--secondary-very-high);
     }
@@ -191,7 +190,7 @@
       display: grid;
       grid-auto-flow: column;
       grid-template-columns: 0fr 1fr 0fr;
-      column-gap: 48px;
+      column-gap: 25px;
       padding: 0;
       .category-logo {
         align-self: center;
@@ -249,16 +248,15 @@
   .description {
     color: var(--primary-high);
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 140%;
-    letter-spacing: 0.03em;
     margin-bottom: 0;
-    max-height: 3em;
+    max-height: 4.2em;
     text-align: left;
     p {
       margin: 0;
       display: -webkit-box;
-      -webkit-line-clamp: 2;
+      -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
